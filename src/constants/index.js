@@ -25,36 +25,53 @@ import {
   threejs,
 } from "../assets";
 
+
+
+
+
+
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Features",
   },
   {
     id: "work",
-    title: "Work",
+    title: "How it works ",
   },
   {
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "contact",
+    title: "API",
+  },
+  {
+    id: "contact",
+    title: "Price",
+  },
+  {
+    id: "contact",
+    title: "Roadmap",
+  },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "AI-Powered Writing",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Custom Genres",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Instant Download",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Multilingual",
     icon: creator,
   },
 ];
@@ -116,55 +133,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Choose Your Genre",
+    company_name: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     " Select from a wide range of genres or create a custom blend.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Provide Key Details",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Input main characters, plot points, or themes to guide the AI",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "AI Generation",
+    company_name: "",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Our advanced AI creates your book based on your inputs.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Review and Download",
+    company_name: "",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Review your generated book and download in your preferred format.",
     ],
   },
 ];
@@ -172,46 +177,32 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
+      "BookAI revolutionized my writing process. I completed my debut novel in just two weeks!",
+    name: "- Sarah J.,",
+    designation: "Author",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
+      "The AI-generated ideas helped me overcome writer's block. It's like having a co-author at your fingertips.",
+    name: "- Mark T.",
+    designation: "Aspiring Writer",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+ 
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Science Fiction",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "As Dr. Elara stepped through the shimmering portal, she knew there was no turning back. The fate of two universes now rested in her hands...",
     tags: [
+      
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "learn more",
         color: "pink-text-gradient",
       },
     ],
@@ -219,44 +210,30 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Mystery",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
+      "The old lighthouse stood silent, its beacon long extinguished. But on foggy nights, some swore they could still see its ghostly light...",
+      tags: [
+      
+        {
+          name: "learn more",
+          color: "pink-text-gradient",
+        },
+      ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Fantasy",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
+      "The ancient prophecy spoke of a child born with starlight in their eyes. As the comet blazed overhead, the kingdom held its breath...",
+     tags: [
+      
+        {
+          name: "learn more",
+          color: "pink-text-gradient",
+        },
+      ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
